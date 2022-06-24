@@ -1,5 +1,5 @@
 import * as C from './styled';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Image1 from './assets/images/image1.svg';
 import {Person} from './types/Person';
 import {PersonList} from './components/PersonList/PersonList';
@@ -76,7 +76,7 @@ const App = () => {
                         </C.ListaSorteio>
                         }
 
-                        {sorteio === false && list.length == 0 &&
+                        {sorteio === false && list.length === 0 &&
                             <C.ListaSorteio><C.NoParticipants>Não há participantes cadastrados no sorteio.</C.NoParticipants></C.ListaSorteio>
                         }
 

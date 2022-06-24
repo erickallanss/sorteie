@@ -1,5 +1,4 @@
 import * as C from './styled';
-import iconEdit from '../../assets/images/icons/editIcon2.png';
 import iconDelete from '../../assets/images/icons/deleteIcon.png';
 import {Person} from '../../types/Person';
 
